@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        /*
+        #  = id
+        .  = class
+        :  = sub-class
+        :: = sub-elements
+        >  = children
+        */
+        a{
+            text-decoration: none;
+            font-weight: bold; 
+        }
+        a:visited{
+            color: rgb(99, 10, 10);
+        }
+        a:hover{
+            text-decoration: underline;
+            font-weight: lighter;
+        }
+        a:active{
+            color: darkred;
+        }
+        a::before{
+            content: '\002738';
+        }
+        a::after{
+            content: '\002738';
+            text-decoration: none;
+            color: rgb(255, 0, 0);
+            font-weight: lighter;
+        }
+        .especial::before{
+            content: none;
+        }
+        .especial::after{
+            content: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/cursoemvideo" target="_blank" rel="external">Repositorio GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo" target="_blank" rel="external">Canal do youtube</a></li>
+        <li><a href="https://cursoemvideo.com" target="_blank" rel="external">Site do curso em video</a></li>
+    </ul>
+    <a href="pseudoclasse.html" class="especial" target="_self" rel="prev">a</a>
+</body>
+</html>

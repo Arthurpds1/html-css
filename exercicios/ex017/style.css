@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+     /*
+    Medidas Absolutas
+    cm,mm,in,px,pt,pc
+
+    Medidas Relativas
+    em,ex,rem,vw,vh,%
+    16px geralmente é equivalente a 1em
+    */
+    font-weight: lighter;
+    /*lighter normal bold bolder*/
+    font-style: italic;
+    text-decoration: underline;
+}
+h1{
+    /*Font-style -> Font-weight -> Font-size -> Font-family
+
+    font-style:italic;
+    font-weight:bolder;
+    font-size:3em;
+    font-family:arial, helvetica, sans-serif;
+    */
+    font: italic bolder 3em arial, helvetica, sans-serif;
+}
+h2{
+    font: bold 2em Arial, Helvetica, sans-serif;
+}

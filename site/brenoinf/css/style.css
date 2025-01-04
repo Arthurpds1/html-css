@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@font-face {
+    font-family: angrybirds;
+    src: url(fonts/angrybirds-regular.ttf) format(truetype);
+}
+body{
+    background-color: rgba(0, 100, 0, 0.475);
+}
+#principal{
+    font-family: 'angrybirds', sans-serif;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+img{
+    display: inline-block;
+}
